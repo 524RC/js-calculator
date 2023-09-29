@@ -15,8 +15,9 @@ body{
     font-weight:bold;
 }
 .calc-container{
+    font-family:Pixelify Sans;
     width:305px;
-    background-color:rgb(9,114,138);
+    background-color:rgb(95, 80, 136);
     border-radius:20px;
     padding:30px;
     margin-top:10px;
@@ -39,4 +40,8 @@ body{
     width:126px;
     margin: 10px 4px;
     border: none !important;
+}
+btn{
+    
+
 }
