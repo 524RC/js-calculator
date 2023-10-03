@@ -18,13 +18,14 @@ function mathButPress(operator){
 function equalButPress(){
 
 }
+//clear all except memory
 function clearButPress(){
  prevVal = '';
  newVal = '';
  resultVal = '';
  mathOperator = '';
  decimalClicked = false;
- valMemStored='';
+
  document.getElementbyId('entry').value='0';
 }
 function copyButPress(){
