@@ -19,11 +19,17 @@ function equalButPress(){
 
 }
 function clearButPress(){
-
+ prevVal = '';
+ newVal = '';
+ resultVal = '';
+ mathOperator = '';
+ decimalClicked = false;
+ valMemStored='';
+ document.getElementbyId('entry').value='0';
 }
 function copyButPress(){
 
 }
 function pasteButPress(){
-    
+
 }
