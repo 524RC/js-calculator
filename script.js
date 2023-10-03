@@ -29,7 +29,7 @@ function clearButPress(){
  document.getElementbyId('entry').value='0';
 }
 function copyButPress(){
-
+    valMemoryStored = document.getElementbyId('entry').value;
 }
 function pasteButPress(){
 
