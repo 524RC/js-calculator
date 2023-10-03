@@ -31,6 +31,10 @@ function clearButPress(){
 function copyButPress(){
     valMemoryStored = document.getElementbyId('entry').value;
 }
+//If a value has been stored paste it in the #entry window and assign its as the newVl
 function pasteButPress(){
-
+    if(valMemStored){
+    document.getElementbyId('entry').valMemStored;
+    newVal = valMemStored;
+    }
 }
